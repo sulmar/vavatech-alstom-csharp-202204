@@ -50,7 +50,10 @@ namespace HelloWorld
             const int MaxSpeed = 140;   // Pascal-Case
             const double Tax = 0.23;
             const double MinimalTemperatureInC = -273;
-           
+
+
+            Console.WriteLine("Press any key to exit.");
+            Console.ReadKey();
 
 
         }
