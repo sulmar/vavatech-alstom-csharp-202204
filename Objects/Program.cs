@@ -12,6 +12,29 @@ namespace Objects
     {
         static void Main(string[] args)
         {
+            // Samochód
+            Car car = new Car(200, FuelType.Gas);
+            car.carType = CarType.Ciezarowy;
+            car.engineCapacity = 2000;
+            car.doors = 4;
+
+            car.color = "Blue";
+
+            Console.WriteLine(car.color);
+
+            car.EngineRun();
+            car.PutInGear(1);
+
+            car.PushGasPedal();
+            car.PushGasPedal();
+            car.PushGasPedal();
+
+            car.PushStopPedal();
+
+
+      
+
+
             // Torebka
             Bag bag = new Bag();
             bag.color = "Black";
