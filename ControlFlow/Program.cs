@@ -99,7 +99,7 @@ namespace ControlFlow
             // # Pętle
 
 
-            // ## Pętla for
+            // ## Pętla for - określona ilość przejść
 
             for (int i = 1; i <= 5; i++)
             {

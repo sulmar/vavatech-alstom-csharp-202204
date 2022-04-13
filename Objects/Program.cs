@@ -12,6 +12,55 @@ namespace Objects
     {
         static void Main(string[] args)
         {
+            // Torebka
+            Bag bag = new Bag();
+            bag.color = "Black";
+            bag.capacity = 1000;
+            bag.bagType = BagType.Formal;
+
+            bag.Open();
+            bag.AddItem("okulary");
+            bag.AddItem("portfel");
+            bag.AddItem("laptop");
+            bag.Close();
+
+
+            bag.Open();
+            if (bag.Search("portfel"))
+            {
+                bag.RemoveItem("portfel");
+            }
+            bag.Close();
+
+            // Karabin
+            Gun gun = new Gun();
+            gun.caliber = 10;
+            gun.distance = 1000;
+            gun.Reload(20);
+
+            gun.Fire();
+
+            gun.Unlock();
+
+            for (int i = 0; i < 30; i++)
+            {
+                gun.Fire();
+            }
+
+            gun.Lock();
+
+            // TV
+            TV tv = new TV();
+            tv.manufacture = "Sony";
+            tv.power = 100;
+            tv.size = 32;
+
+            tv.Push();
+            tv.SelectChannel(10);
+            tv.Push();
+            tv.Push();
+
+
             // Signal 104R
             string name1 = "104N";
             SignalStates state1 = SignalStates.Zabraniajacy;
