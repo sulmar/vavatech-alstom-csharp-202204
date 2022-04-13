@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritence", "Inheritence\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fans", "Fans\Fans.csproj", "{F73EE38A-A9EF-428F-BF58-0A5A30AE49B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Files", "Files\Files.csproj", "{FE2AEF30-D197-4F6E-8697-90C109687108}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{F73EE38A-A9EF-428F-BF58-0A5A30AE49B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F73EE38A-A9EF-428F-BF58-0A5A30AE49B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F73EE38A-A9EF-428F-BF58-0A5A30AE49B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE2AEF30-D197-4F6E-8697-90C109687108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE2AEF30-D197-4F6E-8697-90C109687108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE2AEF30-D197-4F6E-8697-90C109687108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE2AEF30-D197-4F6E-8697-90C109687108}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
